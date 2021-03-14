@@ -19,10 +19,8 @@ class Menu
   def menu
     selection = $stdin.gets.chomp.to_i
   #   case selection
-  #   when 1
-  #     game.move
-  #   when 2
-  #     exit(0)
+  #   when 1 then game.move
+  #   when 2 then exit(0)
   #   end
   end
 end
